@@ -1,0 +1,8 @@
+{
+  "name": "js-algorithm",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
