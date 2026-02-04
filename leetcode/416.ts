@@ -1,7 +1,7 @@
 /**
  * @Title: 416. Partition Equal Subset Sum
  * @Link: https://leetcode.com/problems/partition-equal-subset-sum/description/
- * @Solved: Jan 28, 2026 22:42
+ * @Solved: Feb 05, 2026 04:00
  */
 function canPartition(nums: number[]): boolean {
     // 홀수면 무조건 실패임
