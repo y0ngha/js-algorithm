@@ -24,7 +24,7 @@ nums의 모든 부분 배열의 곱은 32비트 정수에 맞도록 보장됩니
 /**
  * @Title: 152. Maximum Product Subarray
  * @Link: https://leetcode.com/problems/maximum-product-subarray/description/
- * @Solved: Jan 28, 2026 02:46
+ * @Solved: Feb 10, 2026 19:40
  */
 
 function maxProduct(nums: number[]): number {
