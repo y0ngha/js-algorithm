@@ -46,4 +46,22 @@ function canJump(nums: number[]): boolean {
     return dp[nums.length-1]
 }
 
-console.log(canJump([2, 3, 1, 1, 4]))
+function canJumpGreedy(nums: number[]): boolean {
+    let maxReach = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        const reach = nums[i];
+
+        if (i > maxReach) {
+            return false;
+        }
+
+        console.log('?', reach, i, maxReach)
+
+        maxReach = Math.max(maxReach, reach + i)
+    }
+
+    return maxReach >= nums.length - 1
+}
+
+console.log(canJumpGreedy([0]))
