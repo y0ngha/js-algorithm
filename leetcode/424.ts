@@ -26,7 +26,7 @@ s는 모두 대문자 영문 문자로만 구성됩니다.
 /**
  * @Title: 424. Longest Repeating Character Replacement
  * @Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
- * @Solved: Jan 28, 2026 22:19
+ * @Solved: Feb 15, 2026 18:46
  */
 function characterReplacement(s: string, k: number): number {
     let left = 0;
